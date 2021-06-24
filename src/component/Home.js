@@ -4,6 +4,7 @@ import banner from '../assets/img/banner1.jpg'
 import Facebook from '../assets/img/fb.png';
 import Youtube from '../assets/img/youtube.png';
 import Telegram from '../assets/img/Telegram-logo.png'
+import Instagram from '../assets/img/insta.jpg';
 
 const Home = () => {
 	return (
@@ -18,6 +19,7 @@ const Home = () => {
 			<img src={Facebook} alt="Facebook link" style={{height:'100px'}} onClick={()=> window.open("https://www.facebook.com/flairclasses2020/", "_blank")}/>
 			<img src={Youtube} alt="Flair class Youtube link" style={{height:'100px'}} onClick={()=> window.open("https://www.youtube.com/c/FlairClasses/featured", "_blank")}/>
 			<img src={Telegram} alt= "Flair Classes Telegram Link" style={{height:'100px'}} onClick={()=> window.open("https://t.me/flairclasses", "_blank")}/>
+			<img src={Instagram} alt= "Flair Classes Telegram Link" style={{height:'100px'}} onClick={()=> window.open("https://www.instagram.com/flairclasses2020/?fbclid=IwAR053jxGAcOSmgsuGq44uGtmZAbhigDv-n-kluJMbIY_qvWV3pq8V0EhOVI", "_blank")}/>
 			
 
 		</div>
